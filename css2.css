@@ -1,0 +1,36 @@
+#box1{
+    background-color: red rgba(red, green, blue, 0); /*rgba includes alpha, so you can play with opacity there*/
+    height: 60px;
+    width: 300px;
+    border-color: black;
+    border-width: 10px;
+    /*alternative to border style setup: border-style: double;*/
+    border: solid, black 3px;
+    /*way to making border radius round(ofc after mkiang height and width the same px: border-radius: 50%;*/
+    border-radius: 10px;
+    /*padding: 20px;*/
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    /*below it is orginally just a block element, the text, but now we make it inline-block to use both abilites, complemented and vice versa*/
+    display: inline-block;
+    visibility: visible; /*I took out the display:none; to show this working*/
+    a
+
+}
+#box2{
+    background-color: rgb(0, 106, 255);
+    height: 60px;
+    width: 300px;
+    border-color: black;
+    border-width: 10px;
+    /*alternative to border style setup: border-style: double;*/
+    border: solid, black 3px;
+    /*way to making border radius round(ofc after mkiang height and width the same px: border-radius: 50%;*/
+    border-radius: 10px;
+    /*padding: 20px;*/
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+
+}
